@@ -66,9 +66,9 @@ export default function ItemGallery2() {
     }
   }
   const onThrottleDragMove = throttle(onDragMove, delay);
-  const SLIDERWIDTH = 176;
+  const SLIDERWIDTH = 224;
   return (
-    <div className='mt-3 w-48 flex items-center'> {/*전체 컨테이너 */}
+    <div className='mt-3 w-56 flex items-center'> {/*전체 컨테이너 */}
       <div className='w-full overflow-hidden'>{/*액자*/}
         <div 
           ref={containerRef}
